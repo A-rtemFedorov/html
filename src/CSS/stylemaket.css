@@ -223,7 +223,7 @@ h2.title {
 .finish .finish_wrapper {
     margin-top: 41px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .finish .finish_wrapper .finish_item {
@@ -252,9 +252,8 @@ h2.title {
 }
 
 .box {
-    padding: 79px 0 89px 0;
-    min-height: 628px;
-    background-color: #fff;
+    background-color: #efefef;
+    padding: 86px 0 87px 0;
 }
 
 .box .gift_box .box_box{
@@ -262,7 +261,7 @@ h2.title {
     margin: 0 auto;
     width: 154px;
     height: 173px;
-    margin-top: 147px;
+    
    
 }
 
@@ -283,7 +282,7 @@ h2.title {
     width: 313px;
     height: 52px;
     box-shadow: inset 0px 0px 0 rgba(0, 0, 0, 0.18);
-    border: 4px solid rgba(0, 0, 0, 0.23);
+    border: 2px solid rgba(0, 0, 0, 0.23);
     background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
     text-shadow: -0.7px -0.7px 0 rgba(0, 0, 0, 0.22);
     font-family: Roboto;
@@ -296,3 +295,56 @@ h2.title {
     outline: none;
     text-transform: uppercase;
 }
+
+.vebinar {
+    padding: 82px 0 64px 0;
+}
+
+.vebinar .vebinar__img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 82px;
+}
+
+.vebinar .vebinar__text {
+    font-family: Roboto;
+    margin-top: 37px;
+    font-size: 30px;
+    line-height: 0.4;
+    text-align: center;
+    color: #252525;
+}
+
+.vebinar .vebinar__title {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: #299cbd;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.vebinar .vebinar__subtitle {
+    font-family: Roboto;
+    font-size: 23px;
+    text-align: center;
+    color: #4a4a4a;
+    margin-top: 25px;
+}
+
+.footer {
+    background-color: #1a1a1a;
+    padding: 61px 0 69px 0;
+}
+
+.footer .info .helper, .konf, .number {
+    color: grey;
+}
+
+.footer .info .info__text {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
