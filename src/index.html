@@ -1,59 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book</title>
+    <title>Maket</title>
+    <link rel="stylesheet" href="CSS/stylemaket.css">
 </head>
 <body>
-    <h1>мой<br> заголовок</h1>
-    <h2>второй заголовок</h2>
-    <h3>третий заголовок</h3>
-    <hr>
-    <h2>опять второй заголовок</h2>
+    <section class="firstsection">
+        <div class="container">
+            <div class="logo">
+                <img src="logo/photologo.png" alt="logo" class="logo_img">
+                <div class="logo_text">WordPress интенсив</div>
+            </div>
+            <h1 class="title">Создать свой сайт на WordPress </h1>
+            <div class="simple">
+                <h2 class="title_big">это просто!</h2>
+                <div class="line"></div>
+            </div>
+            <h2 class="title">Куда сложнее сделать это правильно!</h2>
+            <div class="promo_text">Ежедневно в России появляется более 5 000 новых сайтов.<br>
+                И только единицы из них становятся популярными и приносят ощутимую прибыль. В чем секрет? В чем формула успеха? Узнайте на предстоящем двухдневном <span>БЕСПЛАТНОМ</span> интенсиве!
+            </div>
+            <button class="promo_btn">Записаться на интесив!</button>
+            <div class="more">
+                <div class="more_text">узнать больше об интенсиве</div>
+                <img src="icons/cursore.png" alt="cursore" class="more_img">
+            </div>
+        </div>
+    </section>
 
-    <ol type="1" start="3"> <!-- открывает список -->
-        <li>пункт первый</li>
-        <li>пункт второй</li>
-        <li>пункт три</li>
-        <li>пункт 4</li>
-        <li>пункт 5</li>
-        <li>пункт 6</li>
-        <li>пункт 7</li>
-        <li>пункт 8</li>
-        <li>пункт 9</li>
-        <li>пункт 10</li>
-        <li>пункт 11</li>
-        <li>пункт 12</li>
-    </ol>
-    <hr>    
-    <h2>снова второй заголовок</h2>
-    <p>это текст первого <i>параграфа</i></p>
+    <section class="waiting">
+        <div class="container">
+            <h2 class="waiting_header">Что вас ждет в нашем интенсиве?</h2>
+            <div class="waiting_divider"></div>
+            <div class="waiting_subheader">2 бесплатных полноценных обучающих вебинара, где:</div>
 
-    <p>это текст второго <em>параграфа</em></p> <!-- логическое выделение прописью -->
+            <div class="waiting_wrapper">
+                <div class="waiting_item">
+                    <img src="icons/firsticon.png" alt="firsticon" class="waiting_img">
+                    <div class="waiting_description">Всего за два бесплатных вебинара мы научим вас, как создать свой сайт на WordPress. </div>
+                </div>
+                <div class="waiting_item">
+                    <img src="icons/twoicon.png" alt="twoicon" class="waiting_img">
+                    <div class="waiting_description">Покажем, как правильно оптимизировать сайт и сделать его привлекательным для поисковых систем. Только свежая, профессиональная и 
+                        актуальная информация!</div>
+                </div>
+                <div class="waiting_item">
+                    <img src="icons/tgreeicon.png" alt="" class="waiting_img">
+                    <div class="waiting_description">Вы узнаете, что такое «хорошая индексация»,
+                        «высокая посещаемость», «стабильный прирост посетителей», «ТОП по запросам» и, что намного важнее, как добиться всех этих показателей!</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <p>это текст третьего <b>параграфа</b></p> <!-- просто жирный шрифт -->
+    <section class="optimization">
+        <div class="container">
+            <h2 class="optimization_header">Что такое оптимизация и зачем она нужна?</h2>
+            <div class="optimization_text">На просторах интернета несчетное количество действующих и даже заброшенных сайтов. Большинство из них совпадает не только по категориям, но и по содержанию.
+                <br><br> 
+                Представьте себе тысячи сайтов, на которых тем или иным образом предоставляется одна и та же информация или продается одна и та же услуга. И попасть на эти сайты можно лишь по тематическим запросам в поисковых системах.
+                <br><br> 
+                Но как вам быть, если ваш сайт похож на сотню или тысячу таких же, а на одной странице гугла или яндекса всего 10 позиций? Как привести посетителей страницы своего ресурса? Именно для этого и нужна оптимизация – для вывода вашего сайта на первую страницу поиска!
+                <br><br> 
+                <span>Мы научим вас, как сделать ваш сайт привлекательным для поисковых систем и посоветуем, как вывести его на первые страницы, обходя всех конкурентов.</span>
+            </div>
+            <img src="img/woman.jpg" alt="women" class="optimizatin_img">
+        </div>
+    </section>
+    <section class="finish">
+        <div class="conteinr">
+            <h2 class="finish_header">По окончании обучения Вы сможете!</h2>
+            <div class="finish_divider"></div>
 
-    <p>это текст четвертого <strong>параграфа</strong></p> <!-- логическое выделение жирным шрифтом -->
-
-    <p>это текст пятого <mark>параграфа</mark></p><!-- цветное выделение -->
-
-    <p>это текст шестого <u>параграфа</u></p> <!-- подчеркивание -->
-
-    <p>это текст пятого <s>параграфа</s></p> <!-- перечеркивание текста -->
-
-    H<sub>2</sub>O <!-- нижний регистр -->
-
-    H<sup>2</sup>O <!-- верхний регистр -->
-
-    <span>текст</span> <!-- что то важное -->
-
-    <div>
-        <a href="https://html5book.ru/html-tags/">link</a>
-        <img src="https://img2.goodfon.ru/original/800x480/a/24/gorod-avstraliya-zolotoy-bereg.jpg" alt="rock">
-        
-    </div>
-
+            <div class="finish_wrapper">
+                <div class="finish_item">
+                    <div class="finish_round">
+                        <img src="icons/smalliconfirst.png" alt="1" class="finish_icon">
+                    </div>
+                    <div class="finish_descr">Создать свой сайт или блог</div>
+                </div>
+                <div class="finish_item">
+                    <div class="finish_round">
+                        <img src="icons/smallicontwo.png" alt="2" class="finish_icon">
+                    </div>
+                    <div class="finish_descr">Правильно его оптимизировать</div>
+                </div>
+                <div class="finish_item">
+                    <div class="finish_round">
+                        <img src="icons/smalliconthree.png" alt="3" class="finish_icon">
+                    </div>
+                    <div class="finish_descr">Обеспечить ему медленный, но верный рост в ТОП</div>
+                </div>
+                <div class="finish_item">
+                    <div class="finish_round">
+                        <img src="icons/smalliconfour.png" alt="4" class="finish_icon">
+                    </div>
+                    <div class="finish_descr">Достигнуть стабильного прироста посетителей</div>
+                </div>
+                <div class="finish_item">
+                    <div class="finish_round">
+                        <img src="icons/smalliconfive.png" alt="5" class="finish_icon">
+                    </div>
+                    <div class="finish_descr">Получать ощутимую прибыль</div>
+                </div>
+            </div>       
+        </div>
+    </section>
+    <section class="box">
+        <div class="container">
+            <div class="gift_box">
+                <img src="icons/box.png" alt="box" class="box_box">
+                <div class="gift_text">Для всех участников интенсива предусмотрены бонусы и подарки. Нажимайте на кнопку ниже, принимайте участие в вебинарах и забирайте свой приз по окончании обучения!</div>
+            </div>
+            <button class="keys">Записаться на интенсив!</button>
+        </div>
+    </section>
+    
 </body>
 </html>
