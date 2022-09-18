@@ -1,0 +1,75 @@
+h2 {
+    color: red;
+    text-align: center;
+    font-style: italic;
+    /* text-decoration: underline; */
+    text-decoration: line-through;
+    font-size: 50px;
+    
+}
+* {
+    box-sizing: border-box;
+}
+
+.twoh {
+    color:aqua;
+    font-weight: 1000; /* толщина текста */
+}
+
+#begin {
+    color: rgba(30, 25, 50, 0.5);
+}
+
+text {
+    font-weight: 100;
+}
+
+.box {
+    /* position: absolute; */
+    vertical-align: middle;
+    display:inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    /* padding-left: 15px;
+    padding-top: 30px; */
+    /* padding: 20px 50px; первая часть за горизонт вторая за вертикаль */
+    /* padding: 20px 30px 50px 40px; верх право вниз лево*/
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: black; */
+    border: 3px solid black;
+    margin: 20px;
+    /* z-index: 3; */
+}
+.pink {
+    color: pink
+}
+a {
+    padding: 20px;
+    margin: 20px;
+    /* width: 500; не реагируют на свойства ширины */
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+nav { 
+    /* static, relative, absolute, fixed, inherit */
+    position: inherit;  
+    left: 0px; 
+    top: 0px; 
+    /* bottom top right left  */
+}
+.red {
+    
+    background-color: green;
+    font-size: 30px;
+    width: 50vw;
+    height: 30vh;
+}
+.study {
+    position: relative;
+    
+}
